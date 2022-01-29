@@ -1,0 +1,9 @@
+.rightbar{
+    flex: 2;
+    background-color: red;
+    
+    height: calc(100vh-20px);
+    margin: 10px 10px ;
+    border-radius: 20px;
+    position: relative;
+}

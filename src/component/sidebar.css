@@ -1,0 +1,97 @@
+.side_bar{
+    flex: 2;
+    background-color: rgb(126, 202, 221);
+    height: calc(100vh-20px);
+    margin: 10px 10px ;
+    border-radius: 20px;
+    position: relative;
+}
+h1{
+    /* background-color: red; */
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    text-shadow: 1px 1px black;
+}
+.side_bar_lst{
+    /* background-color: red; */
+    margin-top: 20px;
+    padding: 28px 0 20px 20px;
+}
+.side_bar_lst ul{
+    list-style-type: none;
+}
+.side_bar_lst ul li{
+    /* background-color: rgb(248, 248, 248); */
+    padding: 10px 0 10px 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.side_bar_lst ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    word-spacing: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+a .item{
+    padding-left: 20px;
+}
+.side_bar_lst ul li.active {
+    background: white;
+    color: blue;
+    border-radius: 10px 0 0 10px;
+}
+ ul li.active a{
+    color: blue ;
+}
+.side_bar_lst ul li.active .top_curve,
+.side_bar_lst ul li.active .bottom_curve{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	background: #ffffff;
+}
+
+.side_bar_lst ul li.active .top_curve{
+	top: -20px;
+}
+
+.side_bar_lst ul li.active .bottom_curve{
+	bottom: -20px;	
+}
+
+.side_bar_lst ul li.active .top_curve:before,
+.side_bar_lst ul li.active .bottom_curve:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    background-color: rgb(126, 202, 221);	
+}
+
+.side_bar_lst ul li.active .top_curve:before{
+	border-bottom-right-radius: 25px;
+}
+
+.side_bar_lst ul li.active .bottom_curve:before{
+	border-top-right-radius: 25px;
+}
+.btn{
+    background-color: transparent;
+    margin-top: 60px;
+}
+.btn button{
+    width: 100%;
+    background-color: rgb(28, 11, 136);
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 27px;
+}

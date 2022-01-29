@@ -1,0 +1,33 @@
+.middiv{
+    flex: 6;
+    /* background-color: rgb(175, 144, 144); */
+    height: calc(100vh-20px);
+    margin: 10px 10px ;
+    border-radius: 20px;
+    position: relative;
+}
+.updiv{
+    display: flex;
+    /* background-color: red; */
+    margin-top: 20px;
+    
+}
+.up{
+    flex: 2;
+    display: flex;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin: 10px;
+    height: 100px;
+    flex-wrap: wrap;
+    box-shadow: inset 3px 5px 9px 0px #6a6969;
+    background: rgb(194, 194, 245);
+}
+.active2,.up:hover{
+    background-color: rgb(95, 127, 232);
+    color: white;
+    box-shadow: 3px 5px 9px 0px #6a6969;
+}
+.up span{
+   
+}

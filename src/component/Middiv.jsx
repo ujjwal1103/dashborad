@@ -13,27 +13,54 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
     <div className='middiv'>
       <div className="updiv">
         <div className={`${index===0?'active2 up':'up'}`} onClick={()=>{setIndex(0)}}>
-         <span className='name'>Courses</span>
-         <span className='micon'><BsThreeDots/></span>
-         <span className="micon"><FaGraduationCap/></span>
-         <span className='digit'>2</span>
+          <table> 
+            <tr>
+              <td><span className='name'>Courses</span></td>
+              <td><span className='micon'><BsThreeDots/></span></td>
+            </tr>
+            <tr>
+              <td><span className="micon2"><FaGraduationCap/></span></td>
+              <td><span className='digit'>2</span></td>
+            </tr>
+          </table>
         </div>
         <div className={`${index===1?'active2 up':'up'}`} onClick={()=>{setIndex(1)}}>
-        <span className='name'>Courses Taken</span>
-         <span className='micon'><BsThreeDots/></span>
-         <span className="micon"><SiGoogleclassroom/></span>
-         <span className='digit'>3</span>
+        <table> 
+            <tr>
+              <td> <span className='name'>Courses Taken</span></td>
+              <td><span className='micon'><BsThreeDots/></span></td>
+            </tr>
+            <tr>
+              <td><span className="micon2"><SiGoogleclassroom/></span></td>
+              <td><span className='digit'>3</span></td>
+            </tr>
+          </table>
+       
         </div>
         <div className={`${index===2?'active2 up':'up'}`} onClick={()=>{setIndex(2)}}> 
-        <span className='name'>Verified Courses</span>
-         <span className='micon'><BsThreeDots/></span>
-         <span className="micon"><MdOutlineVerified/></span>
-         <span className='digit'>7</span></div>
+        <table> 
+            <tr>
+              <td> <span className='name'>Verified Courses</span></td>
+              <td><span className='micon'><BsThreeDots/></span></td>
+            </tr>
+            <tr>
+              <td><span className="micon2"><MdOutlineVerified/></span></td>
+              <td><span className='digit'>7</span></td>
+            </tr>
+          </table>
+       </div>
         <div className={`${index===3?'active2 up':'up'}`} onClick={()=>{setIndex(3)}}> 
-        <span className='name'>Not Verified Courses</span>
-         <span className='micon'><BsThreeDots/></span>
-         <span className="micon"><AiOutlineCloseCircle/></span>
-         <span className='digit'>8</span></div>
+          <table> 
+            <tr>
+              <td> <span className='name'>Not-Verified Courses</span></td>
+              <td><span className='micon'><BsThreeDots/></span></td>
+            </tr>
+            <tr>
+              <td><span className="micon2"><AiOutlineCloseCircle/></span></td>
+              <td><span className='digit'>8</span></td>
+            </tr>
+          </table>
+       </div>
       </div>
     </div>
   )

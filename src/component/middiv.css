@@ -21,13 +21,20 @@
     height: 100px;
     flex-wrap: wrap;
     box-shadow: inset 3px 5px 9px 0px #6a6969;
-    background: rgb(194, 194, 245);
+    background:#ecf3f6;
 }
 .active2,.up:hover{
-    background-color: rgb(95, 127, 232);
+    background-color: #9ecde7;
     color: white;
     box-shadow: 3px 5px 9px 0px #6a6969;
 }
-.up span{
-   
+.up td{
+    /* background-color: red; */
+    /* padding: 23px; */
+    
+    width: 150px;
+    padding-left: 23px;
+}
+.digit,.micon2{
+    font-size: 23px;
 }

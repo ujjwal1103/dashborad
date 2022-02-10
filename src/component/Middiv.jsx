@@ -1,4 +1,6 @@
 import './middiv.css';
+import C2 from './C2'
+import C3 from './C3'
 import { useState } from 'react'
 import {FaGraduationCap,FaAdversal} from 'react-icons/fa';
 import { BsThreeDots } from "react-icons/bs";
@@ -61,6 +63,11 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
             </tr>
           </table>
        </div>
+      </div>
+      <div>
+        <C2 />
+        <C3 />
+        
       </div>
     </div>
   )

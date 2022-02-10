@@ -6,6 +6,7 @@ import Sidebar from './component/Sidebar';
 function App() {
   return (
     <>
+     
       <div className="container">
           <Sidebar />
           <Middiv/>

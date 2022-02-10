@@ -1,8 +1,9 @@
 .middiv{
     flex: 6;
+    
     /* background-color: rgb(175, 144, 144); */
-    height: calc(100vh-20px);
-    margin: 10px 10px ;
+    /* height: calc(100vh-20px); */
+    margin: 10px;
     border-radius: 20px;
     position: relative;
 }

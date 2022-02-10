@@ -1,0 +1,71 @@
+.secdiv{
+    display: flex;
+    /* background-color: rgb(194, 172, 172); */
+    width: 100%;
+    margin-top: 20px;
+}
+.card{
+    flex:3;
+    margin:10px;
+    /* display: flex; */
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin: 10px;
+    height: 150px;
+    /* flex-wrap: wrap; */
+    /* box-shadow: inset 3px 5px 9px 0px #6a6969; */
+    background: #9ecde7;
+}
+.h3{
+    border-bottom: 1px solid #3f9bce;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    /* background: #9ecde7; */
+}
+.pr{
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.p1{
+    border-right: 1px solid #3f9bce;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+.p2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btnn{
+    background-color: #fd869e;
+    height: 49px;
+    border-radius: 0px 0px 15px 15px;
+     height: 49px;
+     text-align: center;
+}
+.btnn button{
+    padding: 5px 9px;
+    font: 14px ;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #359cd5;
+    color: white;
+}
+.d2 .h3,.d3 .h3{
+    font-size: 21px;
+    padding: 10px;
+}
+.down td{
+    text-align: center;
+    text-align: center;
+    line-height: 30px;
+    padding: 3px;
+    font-weight: 5=900;
+}

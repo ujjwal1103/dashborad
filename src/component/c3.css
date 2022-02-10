@@ -1,0 +1,36 @@
+
+.thdiv{
+    /* border: 1px solid red; */
+    margin-top: 30px;
+    margin: 30px 10px 0px 10px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 3px 5px 9px 0px #6a6969;
+    background-color: rgb(248, 248, 248);
+
+}
+.topnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topnav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
+.topnav ul li{
+    /* border: 1px solid black; */
+    padding: 10px;
+    box-shadow:inset 1px 2px 9px 0px #6a6969;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.dropdown{
+    margin-right: 50px;
+}
+.dropdown select{
+    border:1px solid red ;
+    border-radius: 10px;
+}

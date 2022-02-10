@@ -1,9 +1,93 @@
 .rightbar{
-    flex: 2;
-    background-color: red;
-    
+    flex: 2.5;
+    background-color: #d9f0f0;
     height: calc(100vh-20px);
     margin: 10px 10px ;
     border-radius: 20px;
     position: relative;
+}
+.logo{
+    /* background-color: rgb(233, 230, 230); */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(99, 97, 97);
+}
+.class{
+    /* background-color: red; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+.class p{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.schedule{
+    width: 100%;
+    height: auto;
+    background-color: #fc2f58;
+    /* padding: 10px; */
+    text-align: justify;
+    margin: 10px;
+    width: 300px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.class .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.schedule h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px 30px;
+    text-align: center;
+}
+.schedule h2 .leaf{
+    margin-right: 10px;
+    color: red;
+    width: 35px;
+    padding: 5px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    
+}.schedule ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.schedule ul li{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.schedule ul li .icon{
+    margin-right: 15px;
+}
+.schedule button{
+    margin: 20px auto;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(13, 85, 192);
+    width: 100px;
+    color: white;
+    font-size: 16px;
 }
